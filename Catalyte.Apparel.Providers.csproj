@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Catalyte.Apparel.Data\Catalyte.Apparel.Data.csproj" />
+    <ProjectReference Include="..\Catalyte.Apparel.DTOs\Catalyte.Apparel.DTOs.csproj" />
+    <ProjectReference Include="..\Catalyte.Apparel.Utilities\Catalyte.Apparel.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
